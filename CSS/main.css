@@ -106,10 +106,22 @@ body
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
-
 #whoAmI
 {
     position: absolute;
+    width: 800px;
+    height: 165px;
+    top: 10rem;
+    left: 10rem;
+}
+#andrea-img
+{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 9rem;
+    left: 60rem;
+    border-radius: 100%;
     
 }
 
