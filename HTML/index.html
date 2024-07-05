@@ -8,35 +8,64 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <script src="../JS/main.js"></script>
     <title>Maison Padovan</title>
-    <link rel="icon" href="../Sources/MaisonPadovan-icon.jpeg">
+    <link rel="icon" href="../Sources/MAISON PADOVAN-DEF_Logo.png">
 </head>
 
 <body>
 
-    <div id="upper-element">
-        <img src="../Sources/MaisonPadovan-icon.jpeg" alt="logo" id="main-logo">
+    <div class="container" id="upper-element">
+        <img src="../Sources/MAISON PADOVAN-DEF_Logo.png" alt="logo" id="main-logo">
     </div>
 
-     <!-- Menu -->
-     <div class="menu-container">
-        <div class="hamburger" id="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <div class="menu-list" id="menu-list">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <!-- END Menu -->
+    <div id="main-container" style="border: 2px solid red; text-align: center; align-items: center;">
+        <!-- Presentazione -->
+        <div id="presentazione" style="border: 2px solid green;position: relative; padding: 1rem; text-align: center; background-color: #2d2d30; margin: 2rem;">
+            <h1 class="title">PERCHÉ SCEGLIERCI?</h1>
+            <p class="paragraph">Da oltre 20 anni accompagniamo i nostri clienti nella scelta del loro "cappotto in legno", assistendoli in ogni passaggio, al fine di rendere indimenticabile il momento dell’acquisto e della vendita.
 
-    <div id="main-container">
-        
+                I Valori rappresentano l’essenza di ciò che siamo, il nostro DNA, ciò che ci rende unici e diversi rispetto ai nostri concorrenti.
+                
+                Passione in ciò che facciamo unita alla competenza, determinano la soddisfazione dei nostri clienti, che si manifesta con centinaia di eccellenti recensioni che riceviamo costantemente.</p>
+        </div>
+        <!-- END Presentazione -->
+
+        <!-- Prodotti -->
+        <div id="prodotti" style="border: 2px solid green; position: relative; align-items: center; margin: 2rem; width: auto; height: 80rem; padding: 15px;">
+            <h1 class="title" id="minor">I NOSTRI PRODOTTI</h1>
+            <!-- Entry LVL -->
+            <div id="product-level" class="product-image-box" style="border: 2px solid blue; top: 10rem; left: 25rem;">
+                <h2 class="product-title"><span class="product-title" style="color: lightblue;">ENTRY</span> <br> LEVEL</h2>
+                <img src="../Sources/lowCost.png" alt="bara low cost" class="image-product">
+            </div>
+            <!-- Medium LVL -->
+            <div id="product-level" class="product-image-box"style="border: 2px solid magenta; bottom: 10rem; left: 25rem;">
+                <h2 class="product-title"><span class="product-title" style="color: lightpink;">PRO</span> <br> LEVEL</h2>
+                <img src="../Sources/bara-pro.webp" alt="bara pro cost" class="image-product">
+            </div>
+            <!-- Pro LVL -->
+            <div id="product-level" class="product-image-box"style="border: 2px solid yellow; top: 10rem; right: 25rem;">
+                <h2 class="product-title"><span class="product-title" style="color: rgb(255, 255, 193);">MEDIUM</span> <br> LEVEL</h2>
+                <img src="../Sources/bara-medium.webp" alt="bara medium cost" class="image-product">
+            </div>
+            <!-- Business LVL -->
+            <div id="product-level" class="product-image-box"style="border: 2px solid white; bottom: 10rem; right: 25rem;">
+                <h2 class="product-title"><span class="product-title" style="color: rgb(191, 188, 188);">BUSINESS</span> <br> LEVEL</h2>
+                <img src="../Sources/bara-business.jpg" alt="bara business cost" class="image-product">
+            </div>
+        </div>
+        <!-- END Prodotti -->
+        <!-- About -->
+        <div id="about" style="border: 2px solid green; position: relative; align-items: center; text-align: center; margin: 2rem; width: auto; height: 35rem; padding: 15px; margin-top: -5rem;">
+            <h1 class="title">CHI SONO?</h1>
+            <p class="paragraph" id="whoAmI">
+                Nato a Vicenza, 50 anni, sposato con una figlia. Laurea in economia, dopo numerose esperienze lavorative, decide di fare la svolta e continuare l'attività di famiglia. Propongo 
+                un nuovo approccio ed esperienza di ultima dimora come scelta di stile. Un fornito catalogo potrà soddisfare ogni esigenza!
+            </p>
+            <img src="../Sources/Andrea.png" alt="l'Andrea" id="andrea-img">
+        </div>
+        <!-- END About -->
     </div>
+
+    
 </body>
 </html>
