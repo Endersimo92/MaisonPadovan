@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@media (max-width: 1000px)
+@media (max-width: 1173px)
 {
-    #upper-element
+    #about
     {
-        height: 160px;
+        margin-top: 60rem;
     }
 }
 :root 
@@ -80,7 +80,8 @@ body
     font-weight: bolder;
     font-family: "Nunito", sans-serif;
     font-size: var(--step-0);
-    margin: 60px;
+    margin-inline: 0px;
+    margin-bottom: 1em;
 }
 
 .product-image-box
@@ -89,7 +90,7 @@ body
     height: 500px;
     border-radius: 20px;
     background-color: #363636;
-    align-items: center;
+    /* align-items: center; */
     padding: 0px;
 }
 
@@ -112,8 +113,7 @@ body
     margin: 0px;
     padding: 0px;
     
-    bottom: var(--space-s);
-    right: 75px;
+    margin-inline: 20px;
 }
 
 .contenitore-prodotti
