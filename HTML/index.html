@@ -17,9 +17,9 @@
         <img src="../Sources/MAISON PADOVAN-DEF_Logo.png" alt="logo" id="main-logo">
     </div>
 
-    <div id="main-container" style="border: 2px solid red; text-align: center; align-items: center;">
+    <div id="main-container" style="text-align: center; align-items: center;">
         <!-- Presentazione -->
-        <div id="presentazione" style="border: 2px solid green;position: relative; padding: 1rem; text-align: center; background-color: #2d2d30; margin: 2rem;">
+        <div id="presentazione" style="position: relative; padding: 1rem; text-align: center; background-color: #2d2d30; margin: 2rem;">
             <h1 class="title">PERCHÉ SCEGLIERCI?</h1>
             <p class="paragraph">Da oltre 20 anni accompagniamo i nostri clienti nella scelta del loro "cappotto in legno", assistendoli in ogni passaggio, al fine di rendere indimenticabile il momento dell’acquisto e della vendita.
 
@@ -30,40 +30,45 @@
         <!-- END Presentazione -->
 
         <!-- Prodotti -->
-        <div id="prodotti" style="border: 2px solid green; position: relative; align-items: center; margin: 2rem; width: auto; height: 80rem; padding: 15px;">
+        <div id="prodotti" style="position: relative; align-items: center; margin: 2rem; width: auto; height: 70rem; padding: 15px;">
             <h1 class="title" id="minor">I NOSTRI PRODOTTI</h1>
-            <!-- Entry LVL -->
-            <div id="product-level" class="product-image-box" style="border: 2px solid blue; top: 10rem; left: 25rem;">
-                <h2 class="product-title"><span class="product-title" style="color: lightblue;">ENTRY</span> <br> LEVEL</h2>
-                <img src="../Sources/lowCost.png" alt="bara low cost" class="image-product">
+            <div class="contenitore-prodotti" style="position: relative; width: min(90%, 1300px); align-items: center; margin: 0 auto;">
+                <!-- Entry LVL -->
+                <div id="product-level-1" class="product-image-box" style="border: 5px solid lightblue; top: 10rem; left: 25rem;">
+                    <h2 class="product-title"><span class="product-title" style="color: lightblue;">ENTRY</span> <br> LEVEL</h2>
+                    <img src="../Sources/lowCost.png" alt="bara low cost" class="image-product">
+                </div>
+                
+                <!-- Medium LVL -->
+                <div id="product-level-2" class="product-image-box"style="border: 5px solid rgb(255, 255, 193); top: 10rem; right: 25rem;">
+                    <h2 class="product-title"><span class="product-title" style="color: rgb(255, 255, 193);">MEDIUM</span> <br> LEVEL</h2>
+                    <img src="../Sources/bara-medium.webp" alt="bara medium cost" class="image-product">
+                </div>
+                <!-- Pro LVL -->
+                <div id="product-level-3" class="product-image-box"style="border: 5px solid lightpink; bottom: 10rem; left: 25rem;">
+                    <h2 class="product-title"><span class="product-title" style="color: lightpink;">PRO</span> <br> LEVEL</h2>
+                    <img src="../Sources/bara-pro.webp" alt="bara pro cost" class="image-product">
+                </div>
+                <!-- Business LVL -->
+                <div id="product-level-4" class="product-image-box"style="border: 5px solid rgb(191, 188, 188); bottom: 10rem; right: 25rem;">
+                    <h2 class="product-title"><span class="product-title" style="color: rgb(191, 188, 188);">BUSINESS</span> <br> LEVEL</h2>
+                    <img src="../Sources/bara-business.jpg" alt="bara business cost" class="image-product">
+                </div>
             </div>
-            <!-- Medium LVL -->
-            <div id="product-level" class="product-image-box"style="border: 2px solid magenta; bottom: 10rem; left: 25rem;">
-                <h2 class="product-title"><span class="product-title" style="color: lightpink;">PRO</span> <br> LEVEL</h2>
-                <img src="../Sources/bara-pro.webp" alt="bara pro cost" class="image-product">
+            <!-- About -->
+            <div id="about" style="position: relative; align-items: center; text-align: center; margin-inline: 2rem; width: auto; height: 35rem; padding: 15px; margin-top: 1rem;">
+                <h1 class="title" style="position: relative;">CHI SONO?</h1>
+                <div id="container-chiSono">
+                    <p class="paragraph" id="whoAmI" style="position: relative;">
+                        Nato a Vicenza, 50 anni, sposato con una figlia. Laurea in economia, dopo numerose esperienze lavorative, decide di fare la svolta e continuare l'attività di famiglia. Propongo 
+                        un nuovo approccio ed esperienza di ultima dimora come scelta di stile. Un fornito catalogo potrà soddisfare ogni esigenza!
+                    </p>
+                    <img src="../Sources/Andrea.png" alt="l'Andrea" id="andrea-img">
+                </div>
             </div>
-            <!-- Pro LVL -->
-            <div id="product-level" class="product-image-box"style="border: 2px solid yellow; top: 10rem; right: 25rem;">
-                <h2 class="product-title"><span class="product-title" style="color: rgb(255, 255, 193);">MEDIUM</span> <br> LEVEL</h2>
-                <img src="../Sources/bara-medium.webp" alt="bara medium cost" class="image-product">
-            </div>
-            <!-- Business LVL -->
-            <div id="product-level" class="product-image-box"style="border: 2px solid white; bottom: 10rem; right: 25rem;">
-                <h2 class="product-title"><span class="product-title" style="color: rgb(191, 188, 188);">BUSINESS</span> <br> LEVEL</h2>
-                <img src="../Sources/bara-business.jpg" alt="bara business cost" class="image-product">
-            </div>
+            <!-- END About -->
         </div>
         <!-- END Prodotti -->
-        <!-- About -->
-        <div id="about" style="border: 2px solid green; position: relative; align-items: center; text-align: center; margin: 2rem; width: auto; height: 35rem; padding: 15px; margin-top: -5rem;">
-            <h1 class="title">CHI SONO?</h1>
-            <p class="paragraph" id="whoAmI">
-                Nato a Vicenza, 50 anni, sposato con una figlia. Laurea in economia, dopo numerose esperienze lavorative, decide di fare la svolta e continuare l'attività di famiglia. Propongo 
-                un nuovo approccio ed esperienza di ultima dimora come scelta di stile. Un fornito catalogo potrà soddisfare ogni esigenza!
-            </p>
-            <img src="../Sources/Andrea.png" alt="l'Andrea" id="andrea-img">
-        </div>
-        <!-- END About -->
     </div>
 
     
